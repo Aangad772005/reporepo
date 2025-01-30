@@ -1,0 +1,12 @@
+body{
+    padding: 10px;
+    background-color: antiquewhite;
+    color: rgb(120, 30, 30);
+}
+hr{
+    background-color: burlywood;
+}
+table{
+    background-color:white;
+    text-align: center;
+}

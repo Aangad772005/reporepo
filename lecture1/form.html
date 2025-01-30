@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="">
+
+        
+        <label for="urname">Enter Name: </label>
+        <input type="text" name="urname1" id="urname" maxlength="7" placeholder="enter your name" required>
+
+        <br><br>
+
+        <label for="age1">Enter your Birthdate: </label>
+        <input type="date" name="age" id="age1"  placeholder="enter your birthday">
+
+        <br><br>
+
+        <label for="email1">Enter your email: </label>
+        <input type="email" name="email1" placeholder="enter your email id" required>
+
+        <br><br>
+
+        <label for="pass">Enter your password: </label>
+        <input type="password" name="pass1" placeholder="******" required>
+
+        <br><br>
+
+        <label for="review1">Enter your review: </label>
+        <textarea name="review" id="review1" rows="9" cols="40"></textarea>
+
+        <br><br>
+
+        <label for="lang">Which Languages do you know? </label>
+        <input type="checkbox" name="lang1" id="lang" value="eng" checked>English
+        <input type="checkbox" name="lang1" id="lang" value="hin">Hindi
+        <input type="checkbox" name="lang1" id="lang" value="span">Spanish
+        <input type="checkbox" name="lang1" id="lang" value="fren">French
+
+        <br><br>
+
+        <label for="radioo">Which year are u in? </label>
+        
+        <input type="radio" name="radio" id="first_year" value="1">
+        <label for="first_year">First Year</label>
+
+        <input type="radio" name="radio" id="second_year" value="2">
+        <label for="second_year">Second Year</label>
+        
+        <input type="radio" name="radio" id="third_year" value="3">
+        <label for="third_year">Third Year</label>
+
+        <input type="radio" name="radio" id="fourth_year" value="4">
+        <label for="fourth_year">Fourth Year</label>
+
+        <br><br>
+
+        <label for="states1">Choose your state: </label>
+        <select name="states" id="states1" size="1">Select: 
+            <option value="pun">Punjab</option>
+            <option value="del">Delhi</option>
+            <option value="hp">Himachal Pradesh</option>
+            <option value="up">Uttar Pradesh</option>
+            <option value="krntk">Karnataka</option>
+            
+        </select>
+
+        <br><br>
+
+        <label for="selfile">Choose Files:</label>
+        <input type="file" name="selfile" id="selfile1">
+
+        <br><br>
+        <!-- add reset functionality through javascript -->
+        <!-- <input type="image" srxc="refreshing.png" value="Reset Form" width="30px"> -->
+        <input type="image" src="image/submit.png" value="Subit Form" width="50px">
+
+
+    </form>
+    
+</body>
+</html>
